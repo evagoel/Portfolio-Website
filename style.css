@@ -1,0 +1,105 @@
+body {
+  background-color: #E3F4F4;
+  text-align: justify; /* Add text-align property to justify text in the entire body */
+}
+
+/* Style your name with some margins and font properties */
+.name {
+  font-weight: bold;
+  margin-top: 30px;
+  margin-left: 250px;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+}
+
+.mE img {
+  border-radius: 30%;
+  float: left;
+  margin-left: 300px;
+}
+
+/* Style the About section text with justified alignment */
+.about > p {
+  text-align: justify;
+  color: #66BFBF;
+  margin-left: 100px;
+}
+.etext{
+ text-align: center;
+ margin-left: 32%;
+
+}
+.itext{
+  text-align: center;
+  margin-left: 32%;
+}
+.atext{
+  text-align: center;
+  margin-left: 10%;
+}
+
+
+.second h1 {
+  font-family: 'Antic', sans-serif;
+  color: #66BFBF;
+}
+
+.inner-second p {
+  font-family: 'Antic', sans-serif;
+  color: #176B87;
+}
+
+/* Style the button */
+.btn {
+  background-color: #176B87;
+  color: azure;
+  display: inline-block; /* Change display property to inline-block */
+  text-align: center;
+  padding: 10px 20px; /* Add padding to the button for better appearance */
+  border: none;
+  border-radius: 5px;
+}
+
+h2 {
+  text-align: center;
+  text-decoration: solid;
+  text-shadow: #E3F4F4;
+  font-family: 'Antic', sans-serif;
+  color: #2ab9b9;
+  font-weight: 100;
+}
+
+h3 {
+  color: #176B87;
+  text-align: center;
+  font-family: 'Sacramento', cursive;
+}
+
+.contact-message {
+  text-align: center;
+  border-color: azure;
+}
+
+@media (min-width: 319px) and (max-width: 480px) {
+  body {
+      background-color: rgb(194, 231, 220);
+  }
+}
+
+@media (min-width: 481px) and (max-width: 1200px) {
+  body {
+      background-color: #E3F4F4;
+  }
+}
+
+@media (min-width: 1201px) and (max-width: 1600px) {
+  body {
+      background-color: #E3F4F4;
+  }
+}
+
+@media (min-width: 1601px) {
+  body {
+      background-color: rgb(135, 209, 167);
+  }
+}
